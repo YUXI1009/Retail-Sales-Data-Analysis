@@ -1,12 +1,12 @@
 # Retail-Sales-Data-Analysis
 
-Link of Dataset: https://www.myonlinetraininghub.com/workbook-downloads
+### Link of Dataset: https://www.myonlinetraininghub.com/workbook-downloads
 
-Period of time: 2016 Q3 to 2018 Q1
+### Period of time: 2016 Q3 to 2018 Q1
 
-DataSet: Australia retail store's sales data
+### DataSet: Australia retail store's sales data
 
-Data Preparation:
+## Data Preparation:
 
 Create 5 Tables in Excel and import to PowerBI: 
 
@@ -20,7 +20,7 @@ Regions: List of suburbs belongs to different states in Australia with postcodes
 
 Sales: Sales detailed information including sales price,cost price,total units,category,supply chain and postcodes
 
-Data Transformation in Power Query:
+## Data Transformation in Power Query:
 
 Add custom column: "Sales" = [Sale Price]*[Total Units]
 
@@ -30,7 +30,7 @@ Add custom column: "Gross Profit" = [Sales]-[Cost]
 
 Set abve three columns to 'Decimal Number' and format as '%' with 0 decimal place
 
-Table Relationships check & Change inital Summarization,Category:
+## Table Relationships check & Change inital Summarization,Category:
 
 Create relationship between Sales table and Dates table
 
@@ -38,7 +38,7 @@ Change Summarization of Postcode and FY Month to 'Do not Summarize'
 
 State categorized as 'State or Province',Suburbs categorized as 'Place',Postcode categorized as 'Postcode'
 
-Visulization of Dataset:
+## Visulization of Dataset:
 
 Add New Measure: GP % = SUM(Sales[Gross Profit])/SUM(Sales[Sales])
 
