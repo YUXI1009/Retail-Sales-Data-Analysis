@@ -56,6 +56,6 @@ Summary Sheet:
                
 Region & Chain Sheet: 
                       
-                      NSW take the highest proportion of sales and "Ready Wear" chain as main source in all states except TAS.
+               NSW take the highest proportion of sales and "Ready Wear" chain as main source in all states except TAS.
 
-                      charts using (Map,Bar Chart,Area Chart,Multi-row Card,Column Chart,Custom Sparkline Chart)
+               charts using (Map,Bar Chart,Area Chart,Multi-row Card,Column Chart,Custom Sparkline Chart)
